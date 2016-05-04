@@ -8,7 +8,6 @@ $(document).ready (function promptNum (){
 	//to verify that the number input is doenst have string for eg 101a
 	function convertStringIntoInteger(){
 		var stringInteger = parseInt(promptNumInputString,10);
-			console.log(stringInteger);
 			if ( isNaN(stringInteger) ){
 				alert("The input doesn't have any number in it. Please input a value with atleast 1 number in it");
 			} else {
